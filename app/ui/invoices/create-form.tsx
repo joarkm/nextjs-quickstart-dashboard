@@ -46,6 +46,7 @@ export default function Form({ customers }: { customers: CustomerField[] }) {
           <div className="relative mt-2 rounded-md">
             <div className="relative">
               <input
+                required
                 id="amount"
                 name="amount"
                 type="number"
